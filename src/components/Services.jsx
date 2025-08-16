@@ -57,12 +57,12 @@ const Services = ({ isDarkMode }) => {
   ];
 
   return (
-    <section 
-      id="services" 
+    <section
+      id="services"
       className={`py-20 px-4 relative overflow-hidden ${isDarkMode ? 'bg-[#171716]' : 'bg-[#f0eee98c]'}`}
     >
       {/* Parallax Background */}
-      <div 
+      <div
         className="absolute inset-0 opacity-50"
         style={{
           backgroundImage: 'url(https://c4.wallpaperflare.com/wallpaper/511/708/855/coffee-beans-cups-cinnamon-wallpaper-preview.jpg)',
@@ -71,10 +71,10 @@ const Services = ({ isDarkMode }) => {
           backgroundPosition: 'center'
         }}
       />
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Heading */}
-        <div 
+        <div
           ref={ref}
           className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
@@ -92,8 +92,8 @@ const Services = ({ isDarkMode }) => {
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={'auto'}
-          loop={true} // Enables infinite looping
-          speed={800} // Smooth transition speed
+          loop={true}
+          speed={800}
           coverflowEffect={{
             rotate: 40,
             stretch: 0,
@@ -105,17 +105,17 @@ const Services = ({ isDarkMode }) => {
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
-            reverseDirection: false // Always moves forward
+            pauseOnMouseEnter: true, // <-- This makes it stop on hover
           }}
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="w-full"
         >
+
           {services.map((service, index) => (
             <SwiperSlide key={index} className="max-w-sm">
               <div
-                className={`rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 ${
-                  isDarkMode ? 'bg-[#242421]' : 'bg-white'
-                }`}
+                className={`rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 ${isDarkMode ? 'bg-[#242421]' : 'bg-white'
+                  }`}
               >
                 <div className="relative h-56 overflow-hidden">
                   <img
@@ -123,9 +123,8 @@ const Services = ({ isDarkMode }) => {
                     alt={service.title}
                     className="w-full h-full object-cover"
                   />
-                  <div className={`absolute inset-0 bg-gradient-to-t ${
-                    isDarkMode ? 'from-gray-900/80 to-transparent' : 'from-black/50 to-transparent'
-                  }`} />
+                  <div className={`absolute inset-0 bg-gradient-to-t ${isDarkMode ? 'from-gray-900/80 to-transparent' : 'from-black/50 to-transparent'
+                    }`} />
                   <div className="absolute bottom-4 left-4">
                     <service.icon className="h-8 w-8 text-amber-400" />
                   </div>
