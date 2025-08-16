@@ -46,7 +46,7 @@ const Events = ({ isDarkMode }) => {
       className={`py-20 px-4 ${isDarkMode ? 'bg-transparent text-white' : 'bg-gray-100 text-gray-900'}`}
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-10 text-center">Upcoming Events & Workshops</h2>
+        <h2 className="text-4xl font-bold mb-10 text-center">Events & Workshops</h2>
         <div className="grid md:grid-cols-2 gap-10">
           {events.map((event, index) => (
             <div

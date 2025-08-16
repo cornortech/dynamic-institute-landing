@@ -61,7 +61,7 @@ const Footer = ({ isDarkMode }) => {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className={`space-y-2 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
               <p>123 Coffee Street</p>
-              <p>Divertole Rupandehi, Lumbini Nepal</p>
+              <p>Drivertole Rupandehi, Lumbini Nepal</p>
               <p>Phone: +(977) 9812345678</p>
               <p>Email: hello@yourcoffeehub.com</p>
             </div>

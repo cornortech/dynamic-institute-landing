@@ -93,7 +93,7 @@ const Services = ({ isDarkMode }) => {
           centeredSlides={true}
           slidesPerView={'auto'}
           loop={true}
-          speed={800}
+          speed={1200}
           coverflowEffect={{
             rotate: 40,
             stretch: 0,
@@ -103,7 +103,7 @@ const Services = ({ isDarkMode }) => {
           }}
           pagination={{ clickable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true, // <-- This makes it stop on hover
           }}
