@@ -1,5 +1,9 @@
 import React from 'react';
 import { Instagram, Facebook, Twitter, Music2 } from 'lucide-react'; // TikTok alternative icon
+import img1 from '../images/f1.jpeg'
+import img2 from '../images/f2.jpeg'
+import img3 from '../images/f3.jpeg'
+import img4 from '../images/f4.jpeg'
 
 const posts = [
   {
@@ -7,7 +11,7 @@ const posts = [
     platform: "Instagram",
     icon: Instagram,
     username: "@brewtowncafe",
-    img: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
+    img: img1,
     alt: "Coffee Art",
     caption: "Our latte art is getting better every morning ☕✨"
   },
@@ -16,7 +20,7 @@ const posts = [
     platform: "Facebook",
     icon: Facebook,
     username: "Brewtown Cafe",
-    img: "https://images.pexels.com/photos/616837/pexels-photo-616837.jpeg",
+    img: img2,
     alt: "Pastry",
     caption: "Freshly baked pastries straight out of the oven 🥐"
   },
@@ -25,7 +29,7 @@ const posts = [
     platform: "Twitter",
     icon: Twitter,
     username: "@brewtowncafe",
-    img: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+    img: img3,
     alt: "Coffee Shop Interior",
     caption: "Rainy days call for cozy corners and warm cups 🌧️☕"
   },
@@ -34,7 +38,7 @@ const posts = [
     platform: "TikTok",
     icon: Music2,
     username: "@brewtowncafe",
-    img: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
+    img: img4,
     alt: "Coffee Beans",
     caption: "Watch our baristas perfect the perfect pour-over 🔥"
   }

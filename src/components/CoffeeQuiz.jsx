@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import img1 from '../images/q1.jpg'
 
 const questions = [
   {
@@ -84,7 +85,7 @@ const CoffeeQuiz = ({ isDarkMode }) => {
       <div 
         className="absolute inset-0 opacity-50"
         style={{
-          backgroundImage: 'url(https://wallpapercrafter.com/desktop/10097-coffee-cup-table-minimalism-dark-4k.jpg)',
+          backgroundImage: `url(${img1})`,
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center'

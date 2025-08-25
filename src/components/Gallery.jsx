@@ -1,18 +1,30 @@
 import React from 'react';
+import img1 from '../images/h1.jpeg'
+import img2 from '../images/g2.jpeg'
+import img3 from '../images/g3.jpeg'
+import img4 from '../images/g4.jpg'
+import img5 from '../images/s6.jpeg'
+import img6 from '../images/g6.jpeg'
+import img7 from '../images/g7.jpeg'
+import img8 from '../images/event2.jpeg'
+import img9 from '../images/g9.jpeg'
+import img10 from '../images/g10.jpeg'
+import img11 from '../images/g11.jpeg'
+import img12 from '../images/g12.jpeg'
 
 const coffeeImages = [
-  "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
-  "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg",
-  "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg",
-  "https://images.pexels.com/photos/34085/pexels-photo.jpg",
-  "https://images.pexels.com/photos/139989/pexels-photo-139989.jpeg",
-  "https://images.pexels.com/photos/1752806/pexels-photo-1752806.jpeg",
-  "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg",
-  "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg",
-  "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg",
-  "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg",
-  "https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg",
-  "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg"
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12
 ];
 
 const Gallery = ({ isDarkMode }) => {
@@ -29,11 +41,12 @@ const Gallery = ({ isDarkMode }) => {
         {coffeeImages.map((src, index) => (
           <div
             key={index}
-            className="group overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500"
+            className="overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500"
           >
             <img
               src={src}
               alt={`Coffee ${index + 1}`}
+              loading= "lazy"
               className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">

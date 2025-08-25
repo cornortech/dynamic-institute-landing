@@ -1,41 +1,48 @@
 import React from 'react';
 import { Star } from 'lucide-react'; // icon for ratings (optional)
+import img1 from '../images/t1.jpg'
+import img2 from '../images/t2.jpg'
+import img3 from '../images/t3.jpg'
+import img4 from '../images/t4.jpg'
+import img5 from '../images/t5.jpg'
+import img6 from '../images/t6.jpg'
+
 
 const testimonials = [
   { 
     name: 'Alice', 
     review: 'Best coffee I’ve ever had!', 
-    image: 'https://randomuser.me/api/portraits/women/1.jpg',
+    image: img1,
     rating: 5 
   },
   { 
     name: 'Bob', 
     review: 'Amazing atmosphere and friendly staff.', 
-    image: 'https://randomuser.me/api/portraits/men/2.jpg',
+    image: img2,
     rating: 4 
   },
   { 
     name: 'Cathy', 
     review: 'I love their pastries and coffee combos.', 
-    image: 'https://randomuser.me/api/portraits/women/3.jpg',
+    image: img3,
     rating: 5 
   },
   { 
     name: 'Sara', 
     review: 'I like the service they offer.', 
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    image: img4,
     rating: 4 
   },
   { 
     name: 'Moona', 
     review: 'Best place to visit with friends, been there many times and always feels amazing.', 
-    image: 'https://randomuser.me/api/portraits/women/5.jpg',
+    image: img5,
     rating: 5 
   },
   { 
     name: 'Ruby', 
     review: 'Became a fan of this place, well deserved as per its work', 
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    image: img6,
     rating: 5 
   }
 ];

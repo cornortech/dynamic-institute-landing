@@ -1,6 +1,9 @@
 import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import img1 from '../images/s8.jpg'
+import img2 from '../images/cont2.webp'
+
 
 const Contact = ({ isDarkMode }) => {
   const [ref, isVisible] = useScrollAnimation();
@@ -26,7 +29,7 @@ const Contact = ({ isDarkMode }) => {
         <div 
         className="absolute inset-0 opacity-50"
         style={{
-          backgroundImage: 'url(https://c4.wallpaperflare.com/wallpaper/511/708/855/coffee-beans-cups-cinnamon-wallpaper-preview.jpg)',
+          backgroundImage: `url(${img1})`,
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center'
@@ -55,8 +58,7 @@ const Contact = ({ isDarkMode }) => {
         >
           <div className="relative rounded-lg overflow-hidden shadow-2xl h-96">
             <img
-              src="https://images.pexels.com/photos/1797103/pexels-photo-1797103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Coffee shop interior"
+              src={img2}
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
             <div className={`absolute inset-0 bg-gradient-to-t ${isDarkMode ? 'from-gray-900/60 to-transparent' : 'from-black/40 to-transparent'

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowDown } from 'lucide-react';
+import img1 from '../images/f1.jpeg'
 
 const Hero = ({ isDarkMode }) => {
   const scrollToAbout = () => {
@@ -15,7 +16,7 @@ const Hero = ({ isDarkMode }) => {
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const typingSpeed = deleting ? 80 : 150; // speed for typing and deleting
+    const typingSpeed = deleting ? 50 : 70; // speed for typing and deleting
     const timeout = setTimeout(() => {
       if (!deleting && index < fullText.length) {
         setDisplayText(fullText.slice(0, index + 1));
@@ -39,7 +40,7 @@ const Hero = ({ isDarkMode }) => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed transform scale-110"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
+          backgroundImage: `url(${img1})`,
         }}
       />
       

@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from '../images/event1.jpeg'
+import img2 from '../images/event2.jpeg'
+import img3 from '../images/event3.jpeg'
+import img4 from '../images/event4.jpeg'
 
 const Events = ({ isDarkMode }) => {
   const events = [
@@ -8,7 +12,7 @@ const Events = ({ isDarkMode }) => {
       date: "Aug 25, 2025",
       time: "10:00 AM - 2:00 PM",
       location: "Coffee Hub Studio, Downtown",
-      image: "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg",
+      image: img1,
       registerLink: "#"
     },
     {
@@ -17,7 +21,7 @@ const Events = ({ isDarkMode }) => {
       date: "Sep 5, 2025",
       time: "1:00 PM - 3:00 PM",
       location: "Coffee Hub Lounge, Main Street",
-      image: "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg",
+      image: img2,
       registerLink: "#"
     },
     {
@@ -26,7 +30,7 @@ const Events = ({ isDarkMode }) => {
       date: "Sep 20, 2025",
       time: "9:00 AM - 12:00 PM",
       location: "Coffee Hub Roastery, East Wing",
-      image: "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg",
+      image: img3,
       registerLink: "#"
     },
     {
@@ -35,7 +39,7 @@ const Events = ({ isDarkMode }) => {
       date: "Oct 2, 2025",
       time: "4:00 PM - 6:00 PM",
       location: "Coffee Hub Café, Riverfront",
-      image: "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg",
+      image: img4,
       registerLink: "#"
     }
   ];

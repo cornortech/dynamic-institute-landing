@@ -4,6 +4,7 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 import { Coffee, Cake, Wifi, BookOpen, Music, Beer, IceCream } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';

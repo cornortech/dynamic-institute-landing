@@ -1,5 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import img1 from '../images/f1.jpeg'
+import img2 from '../images/f2.jpeg'
+import img3 from '../images/f3.jpeg'
+import img4 from '../images/about.webp'
+import img5 from '../images/g2.jpeg'
 
 const specials = [
   { 
@@ -7,35 +12,35 @@ const specials = [
     desc: "A seasonal favorite with warm pumpkin and cinnamon flavors.", 
     price: 5, 
     calories: "250 kcal",
-    image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg" 
+    image: img1,
   },
   { 
     name: "Chocolate Croissant", 
     desc: "Flaky pastry layered with rich, dark chocolate.", 
     price: 3, 
     calories: "320 kcal",
-    image: "https://images.pexels.com/photos/616837/pexels-photo-616837.jpeg" 
+    image: img2,
   },
   { 
     name: "Vanilla Cold Brew", 
     desc: "Smooth cold brew coffee infused with sweet vanilla.", 
     price: 4, 
     calories: "120 kcal",
-    image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" 
+    image: img3,
   },
   { 
     name: "Blueberry Muffin", 
     desc: "Moist muffin packed with fresh blueberries.", 
     price: 3, 
     calories: "280 kcal",
-    image: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg" 
+    image: img4,
   },
   { 
     name: "Hazelnut Cappuccino", 
     desc: "Creamy cappuccino with a nutty hazelnut twist.", 
     price: 4.5, 
     calories: "200 kcal",
-    image: "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg" 
+    image: img5,
   }
 ];
 

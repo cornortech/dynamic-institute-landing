@@ -10,7 +10,7 @@ const Newsletter = ({ isDarkMode }) => {
   };
 
   return (
-    <section className={`py-20 px-4 text-center ${isDarkMode ? 'bg-transparent text-white' : 'bg-amber-100 text-gray-900'}`}>
+    <section className={`py-20 px-4 text-center ${isDarkMode ? 'bg-transparent text-white' : 'bg-white text-gray-900'}`}>
       <h2 className="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
       <p className="mb-6">Get updates on new products, events, and special promotions.</p>
       <form onSubmit={handleSubmit} className="flex justify-center gap-2 flex-wrap">

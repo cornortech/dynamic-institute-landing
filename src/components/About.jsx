@@ -2,6 +2,8 @@
 import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Award, Heart, Users } from 'lucide-react';
+import img1 from '../images/about.webp'
+
 
 const About = ({ isDarkMode }) => {
   const [ref, isVisible] = useScrollAnimation();
@@ -41,7 +43,7 @@ const About = ({ isDarkMode }) => {
           >
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src={img1}
                 alt="Coffee roasting"
                 className="w-full h-80 object-cover transition-transform duration-700"
               />
