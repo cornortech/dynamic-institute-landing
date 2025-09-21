@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html {
-  font-family: "Delius", cursive;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   scroll-behavior: smooth;
@@ -86,9 +86,9 @@ html {
 
 @keyframes imageReveal {
   from {
-    filter: saturate(0) contrast(4) brightness(.1) blur(5px);
+    filter: saturate(0) contrast(4) brightness(0.1) blur(5px);
     opacity: 0;
-    scale: .95;
+    scale: 0.95;
     translate: 0 4rem;
   }
 
