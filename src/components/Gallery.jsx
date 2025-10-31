@@ -1,4 +1,3 @@
-
 const galleryImages = [
   "https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/538562599_122131411922921872_1779431752227382171_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFk2b0c0bsd8OcH2NSLJ1p11FkIITJBQSrUWQghMkFBKv1_N8nQUjXfXFdKQpjtQPMHRZ7TfFT_JFd7uShANq8y&_nc_ohc=itRwDAPSSWkQ7kNvwGXcqC3&_nc_oc=AdmufdS9EGYjfyqOUbP5IEc39RijZ8KWHoPM9WTtL8a3Q2FHmVqgIWLBU-_EgnLaMUoDxg6lkqUjfl_Idb_Pn30R&_nc_zt=23&_nc_ht=scontent.fbwa1-1.fna&_nc_gid=ZgWuu9LdfmqxUQcWvJbY6A&oh=00_AfZpgLsakWIjJqbFCEMT8vBWndR4lyUeTIuG983OCcARhw&oe=68D19C44",
   "https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/538704355_122131411910921872_3754753443561731597_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCQ85z61eA28R5KXIclsuBwOqRze59zIfA6pHN7n3Mhw27DHXyxJE2IvY2wx9TyUn57VBv6Bqp9Y8RHEibzkdm&_nc_ohc=a5okUTEs9j4Q7kNvwGG3WJs&_nc_oc=Adm-FVKX0PcXTc-SWDk-pP3WekxQxuRXFv4MGEOkT7RaVTBgZSOXDTqlV9lsu9wlASeeLBOwUqsaQ3BcSfJtIPV8&_nc_zt=23&_nc_ht=scontent.fbwa1-1.fna&_nc_gid=qSY9FI0koIJWDAMQ6Q8nRg&oh=00_Afana4AEgzqEMti1c5RBnmpp7_zg-3bcliIxTpCZVI24LQ&oe=68D196D8",
@@ -17,9 +16,7 @@ const Gallery = ({ isDarkMode }) => {
       id="gallery"
     >
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">
-          Dynamic Educational Center Gallery
-        </h2>
+        <h2 className="text-4xl font-bold mb-4">Gallery Highlights</h2>
         <p className="max-w-2xl mx-auto text-lg">
           Explore highlights from our language classes, computer workshops, and
           student activities.

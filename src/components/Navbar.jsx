@@ -1,5 +1,4 @@
 import React from "react";
-import { Menu, X, Sun, Moon } from "lucide-react";
 import logo from "../images/logo.jpg";
 
 const Navbar = ({ isDarkMode, toggleTheme }) => {
@@ -71,7 +70,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
             ))}
 
             {/* Theme Toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className={`p-2 rounded-full transition-all cursor-pointer duration-200 hover:scale-110 ${
                 isDarkMode
@@ -84,11 +83,11 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
               ) : (
                 <Moon className="h-5 w-5" />
               )}
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center space-x-2">
+          {/* <div className="md:hidden flex items-center space-x-2">
             <button
               onClick={toggleTheme}
               className={`p-2 rounded-full transition-all duration-200 ${
@@ -113,7 +112,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
                 <Menu className="h-6 w-6" />
               )}
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Menu */}

@@ -1,8 +1,7 @@
 // Footer.js
-import React from "react";
-import { Coffee, Heart, Instagram, Facebook, Twitter } from "lucide-react";
-import { SiTiktok } from "react-icons/si";
+import { Heart, Instagram, Facebook, Twitter } from "lucide-react";
 import logo from "../images/logo.jpg";
+import { BsTiktok } from "react-icons/bs";
 
 const Footer = ({ isDarkMode }) => {
   return (
@@ -54,6 +53,14 @@ const Footer = ({ isDarkMode }) => {
                 style={{ color: "#1877F2" }}
               >
                 <Facebook className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@dynamic.education7"
+                target="_blank"
+                className="transition-colors duration-200 hover:opacity-80"
+                style={{ color: "#000000" }}
+              >
+                <BsTiktok className="h-5 w-5" />
               </a>
             </div>
           </div>

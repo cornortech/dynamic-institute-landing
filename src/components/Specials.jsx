@@ -165,7 +165,7 @@ const Specials = ({ isDarkMode }) => (
         viewport={{ once: true }}
         className="text-4xl font-bold mb-16"
       >
-        Language Courses at Dynamic Educational Center
+        Language Courses 
       </motion.h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
