@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,14 +9,13 @@ import Events from "./components/Events";
 // import Testimonials from "./components/TestimonialOld";
 import Testimonial from "./components/Testimonial";
 import Newsletter from "./components/Newsletter";
-import CoffeeQuiz from "./components/CoffeeQuiz";
 import Specials from "./components/Specials";
 import SocialFeed from "./components/SocialFeed";
 import Gallery from "./components/Gallery";
 // import TestimonialsOld from "./components/TestimonialOld";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
